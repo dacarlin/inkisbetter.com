@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900,900italic,700italic,500italic,400italic,300italic,100italic);
+
+body {
+  font-family: 'Roboto', Georgia, serif;
+  font-weight: 300;
+  background: #efefef;
+  color: #222;
+  width: 40em;
+  margin: 2em auto;
+  font-size: 18px;
+  padding: 2em;
+}
+
+img {
+  width:95%;
+  border: 18px solid #fff;
+}
+
+.caption {
+  font-size: 14px;
+  font-style: italic;
+}
+
+li {
+  margin-bottom: 1em;
+  list-style: none;
+}
+
+
+h2 {
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 1em 0 0.6em 0;
+}
+
+a {
+  color: rgba( 87, 138, 128, 0.99 );
+  text-decoration: none;
+  border-bottom: 6px solid rgba( 0, 0, 0, 0.1 );
+  font-weight: 400;
+  line-height: 28px;
+}
+
+a:hover {
+  opacity: 0.7;
+}
