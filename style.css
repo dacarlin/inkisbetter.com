@@ -6,7 +6,7 @@ body {
   background: #efefef;
   color: #222;
   width: 40em;
-  margin: 2em auto;
+  margin: 4rem auto;
   font-size: 18px;
   padding: 2em;
 }
@@ -22,15 +22,31 @@ img {
 }
 
 li {
-  margin-bottom: 1em;
-  list-style: none;
+  padding: 0.6rem;
 }
 
+ul {
+  color: rgba(0,0,0,.33); /* or whatever color you prefer */
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 40px;
+  color: rgba(0,0,0,0.89);
+  padding: 0;
+  margin: 0;
+}
 
 h2 {
-  font-weight: 100;
-  text-transform: uppercase;
+  font-weight: 900;
+  /*letter-spacing: 0.05rem;*/
+  /*text-transform: uppercase;*/
   margin: 1em 0 0.6em 0;
+  color: rgba(0,0,0,0.6);
+}
+
+h3 {
+  color: rgba(0,0,0,0.3)
 }
 
 a {
