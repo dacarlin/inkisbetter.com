@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto', Georgia, serif;
   font-weight: 300;
   background: #efefef;
-  color: #222;  
+  color: #444;  
   width: 40em;
   margin: 4rem auto;
   font-size: 18px;
@@ -27,7 +27,7 @@ li {
 }
 
 ul {
-  color: rgba(0,0,0,.33); /* or whatever color you prefer */
+  color: rgba(0,0,0,.66); /* or whatever color you prefer */
 }
 
 h1 {
